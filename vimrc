@@ -27,8 +27,6 @@ set termguicolors
 " NERDTree settings
 " Close vim even if NERDTree is open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-" open NERDTree
-map <leader>n :NERDTreeToggle<CR>
 
 " vimtex settings
 let g:vimtex_view_method = 'skim'
@@ -97,6 +95,9 @@ set sidescrolloff=10
 " mappings leader
 let mapleader = ","
 let localleader = "."
+"
+" open NERDTree
+map <leader>n :NERDTreeToggle<CR>
 
 " General Mappings
 " remap esc to jk and unmap esc
