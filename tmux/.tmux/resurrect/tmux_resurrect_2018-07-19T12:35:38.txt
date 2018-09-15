@@ -1,0 +1,15 @@
+pane	conjoint	0	:bash	1	:*	0	:/Users/William/Documents/Conjoint	1	bash	:
+pane	conjoint	1	:data	0	:	0	:/Users/William/Documents/Conjoint/data/unitTest_tea	1	vim	:vim comparisons.tsv
+pane	conjoint	2	:cbc_hb	0	:	0	:/Users/William/Documents/Conjoint/code	1	vim	:vim cbc_hb.py
+pane	conjoint	3	:run script	0	:	0	:/Users/William/Documents/Conjoint/code	1	vim	:vim run_cbc_hb.py
+pane	conjoint	4	:python3.5	0	:	0	:/Users/William/Documents/Conjoint	1	bash	:
+pane	conjoint	5	:ipynb	0	:	0	:/Users/William/Documents/Conjoint	1	bash	:
+pane	conjoint	6	:writing	0	:-	0	:/Users/William/Documents/Conjoint/Manuscript	1	vim	:vim conjoint18.tex
+window	conjoint	0	1	:*	d69f,269x59,0,0,2
+window	conjoint	1	0	:	d6a0,269x59,0,0,3
+window	conjoint	2	0	:	d6a1,269x59,0,0,4
+window	conjoint	3	0	:	d6a2,269x59,0,0,5
+window	conjoint	4	0	:	d6a3,269x59,0,0,6
+window	conjoint	5	0	:	d6a4,269x59,0,0,7
+window	conjoint	6	0	:-	d6a5,269x59,0,0,8
+state	conjoint	

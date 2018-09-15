@@ -1,0 +1,500 @@
+ls
+vi worker-2018-09-09_17-32-07-00019.out
+rm *
+ls
+ls
+vi worker-2018-09-09_17-34-00-00279.out 
+vi worker-2018-09-09_17-34-00-07475.out
+rm *
+ls
+ls
+ls
+vi worker-2018-09-09_17-38-25-08525.out 
+rm *
+ls
+ls
+vi worker-2018-09-09_17-42-55-05122.out 
+vi worker-2018-09-09_17-42-55-00458.out 
+tmux
+ls
+tmux
+tmux a
+tmux a
+tmux
+vim run_cbc_hb.py
+vim code/generate_data.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:6.0'
+jupyter notebook
+jupyter notebook
+jupyter notebook
+ history -w '/Users/William/.tmux/resurrect/bash_history-loebClassics:1.0'
+vim conjoint18.tex
+vim comparisons.tsv
+ls
+cd modin/pandas/
+ls
+vi datetimes.py 
+ls
+vi indexing.py 
+vi index_metadata.py 
+vi io.py 
+vi datetimes.py 
+vim partition_collections.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-romanCoinage:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-modin:0.0'
+git status
+git commit -a -m 'Updated to_datetime to new backend'
+git push origin dev
+git commit -a -m 'Reverted some changes for PR'
+git push origin dev
+git status
+git commit -a -m 'Replaced pd with pandas'
+git push
+git push origin dev
+git status
+git status
+git commit -a -m 'Made additional changes mentioned in (#7)'
+git push origin dev
+git status
+git pull devin rewrite_backend
+git reset --hard devin/rewrite_backend
+git reset --hard devin/rewrite_backend
+git remote -v
+git fetch devin
+git reset --hard devin/rewrite_backend
+git push --force origin dev
+git log
+git status
+git status
+git commit -a -m 'Updated to_datetime docstring'
+git push origin dev
+vim remote_partition.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-romanCoinage:1.0'
+vim cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-loebClassics:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+vim data_manager.py
+vim dataframe.py
+vim test_dataframe.py
+ls
+cd Documents/hw_170/
+ls
+cd hw02
+ls
+cp cs170.sty ../cs170.sty 
+cd ..
+mkdir hw03
+cp cs170* hw03/
+ls
+cd hw03
+ls
+vi cs170_template.tex 
+mv cs170_template.tex hw03.tex
+ls
+rm cs170_template.*
+vi hw03.tex 
+ssh williamma@scf-ug02.berkeley.edu
+cd Documents/hw_170/
+ls
+cd hw03/
+ls
+vi hw03.tex 
+ssh williamma@scf-ug02.berkeley.edu
+history -r '/Users/William/.tmux/resurrect/bash_history-romanCoinage:1.0'
+ssh Williamma@scf-ug02.berkeley.edu
+ssh Williamma@scf-ug02.berkeley.edu
+tmux
+vim run_cbc_hb.py
+vim code/generate_data.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:6.0'
+vim comparisons.tsv
+vim cbc_hb.py
+vim conjoint18.tex
+vim conjoint18.tex
+vim conjoint18.tex
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git pull
+git commit -a -m 'ALl thats left is abstract and add figures'
+git push
+git commit -a -m 'Did writing'
+git push
+ history -w '/Users/William/.tmux/resurrect/bash_history-loebClassics:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-romanCoinage:0.0'
+git status
+git add Data/rawOCRE.csv 
+git commit -a -m 'Updated OCRE data set'
+git push
+jupyter notebook
+tmux
+vim run_cbc_hb.py
+vim code/generate_data.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:6.0'
+vim comparisons.tsv
+vim cbc_hb.py
+vim conjoint18.tex
+vim conjoint18.tex
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git status
+git add results.xlsx 
+git commit -a -m 'Converted results to excel spread sheet and wrote up the results'
+git push
+ history -w '/Users/William/.tmux/resurrect/bash_history-loebClassics:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-romanCoinage:0.0'
+ls
+ls
+cd Documents/
+ls
+cd ..
+ls
+cd iCloud
+ls
+cd ..
+ls
+cd Documents/
+ls
+mkdir 170_HW
+cd 170_HW/
+ls
+ls
+mkdir HW01
+cp cs170.sty HW01/
+cp homework_template.tex HW01/
+mv HW01/ HW00
+ls
+cd HW00/
+ls
+mv homework_template.tex hw00.tex
+vi hw00.tex 
+rm hw00.tex 
+cd ..
+ls
+vi homework_template.tex 
+ls
+rm homework_template.aux 
+rm homework_template.f*
+ls
+rm homework_template.log 
+rm homework_template.pdf 
+rm homework_template.synctex.gz 
+ls
+mv homework_template.tex HW00/hw00.tex
+ls
+cd ..
+ls
+mv 170_HW/ hw_170
+ls
+cd hw_170/
+ls
+cd mv HW00 hw_0
+mv HW00 hw_0
+ls
+cd hw_0/
+ls
+cp hw00.tex ../cs170_tempplate.tex
+ls
+cd ..
+ls
+vi cs170_tempplate.tex 
+cd hw_0/
+ls
+vi hw00.tex 
+l
+vi .bash_profile
+vi .profile 
+ls
+git clone git://github.com/craigemery/vim-autotag.git ~/.vim/bundle/vim-autotag
+cp .vim dotfiles/vim
+cp -r .vim dotfiles/vim
+cd dotfiles/vim
+ls
+cd bundle/
+ls
+cd ..
+cd ..
+cd ..
+cd .vim/
+ls
+cd bundle/
+ls
+cd
+cd dotfiles/vim/bundle/
+ls
+git submodule add git submodule add https://github.com/chaconinc/DbConnector
+git submodule add https://github.com/chaconinc/DbConnector
+git submodule add git://github.com/craigemery/vim-autotag.git ~/.vim/bundle/vim-autotag
+git submodule add git://github.com/craigemery/vim-autotag.git 
+ls
+git status
+git commit -a -m 'Added autotag'
+git push
+cd ..
+ls
+cd ..
+l
+cd vim
+ls
+l
+rm -rf .vim
+cd Documents/modin/modin/data_management/
+ls
+cd partitioning/
+ls
+vi remote_partition.py 
+cd Documents/modin/modin/data_management/
+ls
+cd partitioning/
+ls
+cd ..
+ls
+vi data_manager.py 
+vi __init__.py 
+cd partitioning/
+pwd
+ls
+vi partition_collections.py 
+cd /Users/William/Documents/modin/modin/data_management/partitioning
+ls
+vi remote_partition.py 
+ls
+cd cs162-vm/
+ls
+vagrant up
+vagrant ssh
+vagrant ssh
+ls
+cd ..
+ls
+l
+ls dotfiles/
+ls
+ls dotfiles/
+cd ..
+ls
+cd William/
+ls
+mv .vimrc dotfiles/vimrc
+cd dotfiles/
+git status
+git commit -a -m 'Updated vimrc
+'
+git push
+cd ..
+ls
+cd cs162-vm/
+ls
+vagrant ssh
+vagrant halt
+ls
+cd ..
+ls
+cd Documents/
+ls
+git clone https://github.com/modin-project/modin.git
+ls
+cd modin
+ls
+vi README.rst 
+vi setup.py 
+git fetch origin pull/70/head:master
+git fetch origin pull/70/head
+git status
+ls
+cd modin/
+ls
+git status
+git fetch origin pull/70/head:rewrite_backend
+git checkout rewrite_backend
+git status
+ls
+cd data_management/
+ls
+cd pa
+cd partitioning/
+ls
+vi axis_partition.py 
+cd modin
+cd 
+vi .vim
+ls
+l
+vi .bash_profile
+vi .vimrc
+cd dotfiles/
+ls
+cp vimrc ../.vimrc
+vim .vimrc
+vim vimrc
+cd ..
+ls
+l
+vi .vimrc
+tmux 
+tmux a
+vim run_cbc_hb.py
+vim code/generate_data.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:6.0'
+vim cbc_hb.py
+vim comparisons.tsv
+vim conjoint18.tex
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-loebClassics:0.0'
+ls
+cd Documents/modin/
+ls
+cd modin/data_management/
+ls
+cd partitioning/
+ls
+vi axis_partition.py 
+cd Documents/modin/modin/data_management/
+ls
+vi data_manager.py 
+ls
+cd Documents/modin/
+ls
+ history -w '/Users/William/.tmux/resurrect/bash_history-romanCoinage:0.0'
+ls
+pwd
+git pull
+git pull rewrite_backend head
+python
+ls
+vi tmp
+vi tmp.py
+python3 tmp.py 
+rm tmp.py 
+ls
+ls
+cd Documents/
+ls
+cd hw_170/
+ls
+mv hw_0/ hw0
+ls
+cd hw0/
+ls
+vi hw00.tex
+ls
+tmux 
+vim run_cbc_hb.py
+vim code/generate_data.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:6.0'
+vim comparisons.tsv
+vim cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+vim conjoint18.tex
+vim conjoint18.tex
+ history -w '/Users/William/.tmux/resurrect/bash_history-loebClassics:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-romanCoinage:0.0'
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ls
+tmux 
+ls
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+vim run_cbc_hb.py
+vim code/generate_data.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:6.0'
+vim comparisons.tsv
+vim cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git status
+git commit -a -m 'Updated writing and results spreadsheet'
+git push
+git status
+git commit -a -m 'updated results spreadsheet'
+git push
+vim conjoint18.tex
+vim conjoint18.tex
+ history -w '/Users/William/.tmux/resurrect/bash_history-loebClassics:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-romanCoinage:0.0'
+ssh williamma@scf-ug02.berkeley.edu
+ls
+cd Documents/hw_170/
+ls
+mkdir hw01
+ls
+mv hw0 hw00
+ls
+cp cs170* hw01/
+ls
+mv cs170_tempplate.tex cs170_template.tex 
+ls
+cd hw01
+ls
+mv cs170_tempplate.tex hw01.tex
+ls
+vi hw01.tex 
+ls
+cd ..
+ls
+vi cs170_template.tex 
+cd hw01/
+ls
+vi hw01.tex 
+ls
+vi hw01.tex 
+vi cs170.sty 
+vi hw01.tex 
+cd ..
+ls
+vi cs170_template.tex 
+cd hw01/
+ls
+vi hw01.tex 
+python
+git remote -v
+git remote add william https://github.com/williamma12/modin
+git remote -v
+git status
+git commit -a -m 'Added type checking and changed how variables were read in from kwargs'
+git push william master
+git status
+git status
+git remote -v
+git status
+git log
+git remote -v
+git remote set-url william git@github.com:williamma12/modin.git
+git remote -v
+git status
+git status
+git remote -v
+git rename origin upstream
+git remote rename origin upstream
+git remote -v
+git remote rename william origin
+git remote -v
+git status
+git branch -v
+git status
+git status origin
+git log
+git status
+git remote -v
+git push origin rewrite_backend
+tmux
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+vim run_cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:6.0'
+vim cbc_hb.py
+vim comparisons.tsv
+vim conjoint18.tex
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-loebClassics:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-romanCoinage:0.0'
+vim code/generate_data.py
+vim code/generate_data.py
+ssh williamma@scf-ug02.berkeley.edu
+ history -w '/Users/William/.tmux/resurrect/bash_history-romanCoinage:1.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-romanCoinage:1.0'

@@ -1,0 +1,17 @@
+pane	conjoint	0	:bash	0	:	0	:/Users/William/Documents/Conjoint	1	bash	:
+pane	conjoint	1	:data	0	:	0	:/Users/William/Documents/Conjoint/data/unitTest_tea	1	vim	:vim comparisons.tsv
+pane	conjoint	2	:cbc_hb	0	:	0	:/Users/William/Documents/Conjoint/code	1	vim	:vim cbc_hb.py
+pane	conjoint	3	:run script	0	:	0	:/Users/William/Documents/Conjoint/code	1	vim	:vim run_cbc_hb.py
+pane	conjoint	4	:generate_data	1	:*	0	:/Users/William/Documents/Conjoint	1	vim	:vim code/generate_data.py
+pane	conjoint	5	:python3.5	0	:-	0	:/Users/William/Documents/Conjoint	1	bash	:
+pane	conjoint	6	:ipynb	0	:	0	:/Users/William/Documents/Conjoint	1	Python	:/Library/Frameworks/Python.framework/Versions/3.6/Resources/Python.app/Contents/MacOS/Python /Library/Frameworks/Python.framework/Versions/3.6/bin/jupyter-notebook
+pane	conjoint	7	:writing	0	:	0	:/Users/William/Documents/Conjoint/Manuscript	1	vim	:vim conjoint18.tex
+window	conjoint	0	0	:	b43e,178x41,0,0,1
+window	conjoint	1	0	:	b43f,178x41,0,0,2
+window	conjoint	2	0	:	b440,178x41,0,0,3
+window	conjoint	3	0	:	b441,178x41,0,0,4
+window	conjoint	4	1	:*	b445,178x41,0,0,8
+window	conjoint	5	0	:-	b442,178x41,0,0,5
+window	conjoint	6	0	:	b443,178x41,0,0,6
+window	conjoint	7	0	:	b444,178x41,0,0,7
+state	conjoint	

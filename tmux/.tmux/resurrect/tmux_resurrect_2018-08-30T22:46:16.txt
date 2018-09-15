@@ -1,0 +1,39 @@
+pane	conjoint	0	:bash	1	:*	0	:/Users/William/Documents/Conjoint	1	bash	:
+pane	conjoint	1	:data	0	:	0	:/Users/William/Documents/Conjoint/data/unitTest_tea	1	vim	:vim comparisons.tsv
+pane	conjoint	2	:cbc_hb	0	:	0	:/Users/William/Documents/Conjoint/code	1	vim	:vim cbc_hb.py
+pane	conjoint	3	:run script	0	:	0	:/Users/William/Documents/Conjoint/code	1	vim	:vim run_cbc_hb.py
+pane	conjoint	4	:generate_data	0	:	0	:/Users/William/Documents/Conjoint	1	vim	:vim code/generate_data.py
+pane	conjoint	5	:python3.5	0	:	0	:/Users/William/Documents/Conjoint	1	bash	:
+pane	conjoint	6	:ipynb	0	:	0	:/Users/William/Documents/Conjoint	1	bash	:
+pane	conjoint	7	:writing	0	:-	0	:/Users/William/Documents/Conjoint/Manuscript	1	vim	:vim conjoint18.tex
+pane	loebClassics	0	:bash	0	:-	0	:/Users/William/Documents/loebClassics_search	1	bash	:
+pane	loebClassics	1	:jupyter notebook	1	:*	0	:/Users/William/Documents/loebClassics_search	1	bash	:
+pane	modin	0	:bash	1	:*	0	:/Users/William/Documents/modin	1	bash	:
+pane	modin	1	:dataframe.py	0	:	0	:/Users/William/Documents/modin/modin/pandas	1	vim	:vim dataframe.py
+pane	modin	2	:data_manager.py	0	:	0	:/Users/William/Documents/modin/modin/data_management	1	vim	:vim data_manager.py
+pane	modin	3	:partitions_collections.py	0	:	0	:/Users/William/Documents/modin/modin/data_management/partitioning	1	vim	:vim partition_collections.py
+pane	modin	4	:remote_partition.py	0	:	0	:/Users/William/Documents/modin/modin/data_management/partitioning	1	vim	:vim remote_partition.py
+pane	modin	5	:test suite	0	:	0	:/Users/William/Documents/modin/modin/pandas/test	1	vim	:vim test_dataframe.py
+pane	modin	6	:Python	0	:-	0	:/Users/William/Documents/modin	1	Python	:/Library/Frameworks/Python.framework/Versions/3.6/Resources/Python.app/Contents/MacOS/Python
+pane	romanCoinage	0	:bash	1	:*	0	:/Users/William/Documents/roman_coinage	1	bash	:
+pane	romanCoinage	1	:jupyter-notebook	0	:-	0	:/Users/William/Documents/roman_coinage	1	bash	:
+window	conjoint	0	1	:*	b47e,180x42,0,0,1
+window	conjoint	1	0	:	b47f,180x42,0,0,2
+window	conjoint	2	0	:	b480,180x42,0,0,3
+window	conjoint	3	0	:	b481,180x42,0,0,4
+window	conjoint	4	0	:	b482,180x42,0,0,5
+window	conjoint	5	0	:	b483,180x42,0,0,6
+window	conjoint	6	0	:	b484,180x42,0,0,7
+window	conjoint	7	0	:-	b485,180x42,0,0,8
+window	loebClassics	0	0	:-	b486,180x42,0,0,9
+window	loebClassics	1	1	:*	5a6f,180x42,0,0,10
+window	modin	0	1	:*	69a7,271x59,0,0,18
+window	modin	1	0	:	69a4,271x59,0,0,15
+window	modin	2	0	:	69a5,271x59,0,0,16
+window	modin	3	0	:	69a8,271x59,0,0,19
+window	modin	4	0	:	69a6,271x59,0,0,17
+window	modin	5	0	:	e9a0,271x59,0,0,21
+window	modin	6	0	:-	e9a1,271x59,0,0,22
+window	romanCoinage	0	1	:*	5a70,180x42,0,0,11
+window	romanCoinage	1	0	:-	5a71,180x42,0,0,12
+state	modin	loebClassics

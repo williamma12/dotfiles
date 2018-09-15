@@ -1,0 +1,16 @@
+# ~/.tmuxinator/sample.yml
+
+name: modin
+root: ~/Documents/modin
+
+windows:
+  - shell:
+    - echo Welcome Back!
+  - git:
+    - vim
+  - df:
+    - vim modin/pandas/dataframe.py
+  - datamanager:
+    - vim modin/data_management/data_manager.py
+  - tests:
+    - vim modin/pandas/tests/test_dataframe.py

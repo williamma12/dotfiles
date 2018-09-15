@@ -1,0 +1,500 @@
+ls
+vi sanity_test.py 
+ls
+vi regfile-insert.circ 
+vi alu-add.circ 
+vi alu-add.circ 
+ls
+tmux kill-session
+ history -w '/Users/William/.tmux/resurrect/bash_history-0:0.0'
+tmux kill
+tmux kill-session
+vim comparisons.tsv
+tmux kill-session 0
+tmux kill-session -t 0
+vim comparisons.tsv
+vim cbc_hb.py
+vi ROM_file_ref.txt 
+ls
+vi sanity_test.py 
+vi sanity_test.py 
+tmux kill-session -t 0
+ls
+cd reference_output/
+ls
+cd ..
+ls
+cd reference_input/
+ls
+ls
+vi alu
+vi alu-test
+ history -w '/Users/William/.tmux/resurrect/bash_history-proj3:3.0'
+tmux kill-server
+ls
+ history -w '/Users/William/.tmux/resurrect/bash_history-proj3:0.0'
+ls
+ls
+mkdir reference_input
+cd reference_input
+ls
+vi alu
+ls
+ history -w '/Users/William/.tmux/resurrect/bash_history-proj3:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+tmux kill-session
+vim comparisons.tsv
+ls
+cd Documents/proj3-agb/
+ls
+cd tests/
+cd re
+ls
+cd reference_output/
+ls
+vi alu-add.out 
+ls
+cd ..
+pushd
+pushd ~
+ls
+vi test
+ls
+vi test
+pushd
+ls
+cd reference_output/
+ls
+vi alu-mult.out
+ls
+cd ..
+ls
+vi sanity_test.py 
+pushd
+vi test 
+ls
+pushd
+ls
+pushd
+vi test 
+mv test Documents/proj3-agb/tests/reference
+popd
+tmux
+tmux
+tmux
+tmux a
+tmux
+tmux a
+tmux a
+tmux
+tmux a 
+cd Documents/proj3-agb/
+ls
+git status
+git add -A
+git commit -a -m 'Tested ALU'
+git push origin master
+ls
+cd Documents/hw-stat133-williamma12/
+ls
+git status
+ls
+l
+vi .RData 
+ls
+cd Documents/proj3-agb/
+ls
+git status
+git add -u
+git commit -m 'project 3-1 submission'
+ls
+cd TESTING_INSTRUCTIONS 
+vi TESTING_INSTRUCTIONS 
+git add -u
+git commit -m 'project 3-1 submission'
+git tag 'proj3-1-sub'
+git push origin proj3-1-sub
+ssh cs61c-agb@hive7.cs.berkeley.edu
+ls
+cd Documents/roman_coinage/
+ls
+cd Plots/
+ls
+rm *
+ls
+git status
+ls
+cd Documents/roman_coinage/
+ls
+jupyter notebook
+git status
+git commit -a -m 'Worked on determining if it was a representation for wordCountsOverTime function'
+git push origin master
+git checkout gh-pages
+git status
+git checkout master Plots
+git status
+git add -A
+git commit -a -m 'Updated plots'
+git push origin gh-pages
+git checkout master
+vim ROM_file_ref.txt
+vim sanity_test.py
+tmux kill-session
+vim comparisons.tsv
+vim comparisons.tsv
+tmux
+tmux -a
+tmux a
+tmux a
+vi .tmux.conf 
+tmux a
+ls
+cd Documents/Conjoint/
+ls
+git status
+git commit -a -m 'Finished code for estimating D'
+git push origin master
+scp cs61c-agb@hive12.cs.berkeley.edu:~cs61c/labs/06 ~/Documents/06
+scp cs61c-agb@hive12.cs.berkeley.edu:~cs61c/labs/06 ~/Documents/
+scp -r cs61c-agb@hive12.cs.berkeley.edu:~cs61c/labs/06 ~/Documents/
+ls
+cd Documents/
+ls
+cd 06
+ls
+ssh cs61c-agb@hive12.cs.berekeley.edu
+ssh cs61c-agb@hive1.cs.berekeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+python
+ls
+ls
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+clear
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+:w
+python code/cbc_hb.py 
+clear
+clear
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python
+ls
+cd code/
+ls
+vi test.py
+python test.py 
+vi test.py
+python test.py 
+vi test.py
+python test.py 
+vi test.py
+python test.py 
+vi test.py
+python test.py 
+vi test.py
+python test.py 
+vi test.py
+python test.py 
+cd ..
+python code/cbc_hb.py 
+clear
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+vi ~/.bash_profile
+python -c "from theano import config; print config.compute_test_value"
+python -c "from theano import config; print(config.compute_test_value)"
+cd theano
+pushd
+pushd ~
+ls
+cd ..
+ls
+cd ..
+ls
+cd
+ls
+l
+rm .theano
+rm -rf .theano
+pushd
+python code/cbc_hb.py 
+python -c "from theano import config; print(config.compute_test_value)"
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+ls
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+ls
+ls
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+python code/cbc_hb.py 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'

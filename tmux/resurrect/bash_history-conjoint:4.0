@@ -1,0 +1,500 @@
+cd Desktop/70/hw13/
+ls
+vi hw13.tex 
+clear
+vim comparisons.tsv
+vim comparisons.tsv
+ls
+cd ..
+ls
+cd unitTests/
+ls
+vi comparisons.tsv
+vi comparisons.tsv
+vi profiles.tsv
+vi selections.tsv
+pwd
+vi profiles.tsv 
+vi profiles.tsv 
+vi comparisons.tsv 
+vim cbc_hb.py
+vim cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+jupyter notebook
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ls
+ls
+ls
+cd tmp
+ls
+rm *
+ls
+cd ..
+ls tmp
+ls
+cd data/
+ls
+mv unitTests/ unitTest_tea/
+ls
+cd unitTest_tea/
+ls
+vi README.md
+git status
+cd ..
+ls
+git status
+git add unitTest_tea/
+git commit -a -m 'Created and ran tea unit test'
+git push
+cd Documents/Conjoint/
+ls
+tmux
+tmux ls
+tmux
+tmux kill-server
+ls
+cd
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+cd Desktop/
+ls
+cd 70/
+ls
+cd hw13
+ls
+vi hw13.tex 
+ls
+cd Documents/roman_coinage/Plots/
+rm *
+ls
+ls
+rm *
+ls
+rm allData_
+ls
+cd Documents/roman_coinage/
+git status
+git add -A
+git commit -a -m 'Updated plots'
+cd Documents/roman_coinage/
+ls
+rm Plots/*
+ls Plots/
+git status
+git commit -a -m 'Updated Plots'
+ls
+ls
+ls
+cd Documents/roman_coinage/
+ls
+jupyter notebook
+git status
+git add -A
+git commit -a -m 'Added augustan distribution plot'
+git status
+git push
+git checkout gh-pages
+git status
+git checkout master Plots
+ls
+git status
+git commit -a -m 'Updated plots'
+git status
+ls
+vi generate_README.py 
+python generate_README.py 
+ls
+mv basic_README.md README.md 
+vi README.md 
+python generate_README.py 
+vi README.md 
+git checkout master
+git status
+git add -A
+git commit -am 'Started updating readme to be more accessible'
+git push
+git status
+git checkout master
+git status
+jupyter notebook
+git status
+git add -A
+jupyter notebook
+git status
+git push
+ls
+ls
+git checkout gh-pages
+ls
+python generate_README.py 
+vi README.md 
+vi README.md 
+rm Plots/*
+ls
+git checkout master plots
+git checkout master Plots
+python generate_README.py 
+vi README.md 
+rm basic_README.md 
+git status
+git commit -a -m 'UPdated plots and readme'
+git push
+git status
+vi generate_README.py 
+python generate_README.py 
+vi generate_README.py 
+python generate_README.py 
+vi README.md 
+ls
+vi diff_README.md 
+ls
+git status
+git commit -a -m 'Fixed README and made better generate_README.py'
+git push
+git checkout master
+git status
+ls
+rm diff_README.md 
+ls
+jupyter notebook
+git status
+git push
+git checkout gh-pages
+git status
+rm Plots/*
+git checkout master Plots
+git status
+git commit -a -m 'Updated Plots'
+git push
+git status
+git checkout master
+ssh cs61c-agb@hive3.cs.berkeley.edu
+ls
+vi temp.txt
+appletviewer http://denninginstitute.com/workbenches/vmsim/vm.html 
+ls
+ls
+rm temp.txt 
+ls
+tmux
+vim comparisons.tsv
+ls
+cd ..
+ls
+mkdir unitTest_computers
+cp unitTest_tea/comparisons.tsv unitTest_computers/
+ls
+cd unitTest_computers/
+ls
+vi comparisons.tsv 
+ls
+ls ../unitTest_
+ls ../lemonade/
+vi selections.tsv
+ls
+vi '
+vi \'
+rm \'
+ls
+ls
+ls
+ls ..
+vim cbc_hb.py
+vim cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+jupyter notebook
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ls
+cd Desktop/70/hw13/
+vi hw13.tex 
+exit
+vim comparisons.tsv
+cd ..
+ls
+vi README.md
+git status
+git add README.md 
+git status
+git commit -m 'Added brief documentation in the form of a README for the data'
+git push
+tmux kill-server
+vim cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+cd Documents/Conjoint/
+ls
+git status
+git add data/unitTest_computers/
+git status
+git commit -a -m 'Created computers unit test for cbc_hb.py'
+git push 
+git pull
+git status
+git push
+ls
+cd data/
+ls
+cd conjoint\ package\ data/
+ls
+cd ..
+ls
+cd p
+cd ..
+ls
+cd code/
+ls
+cd ..
+ls
+git log
+ssh cs61c-agb@hive12.cs.berkeley.edu
+tmux a
+tmux
+tmux a
+cd 
+cd Desktop/
+ls
+cd 70/
+ls
+cd hw13
+ls
+vi hw13.tex 
+cd Desktop/70/hw13/
+vi hw13.tex
+ls
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+clear
+clear
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ls
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ls
+cd Desktop/70/hw13
+ls
+git status
+vi hw13.tex 
+ssh cs61c-agb@hive12.cs.berkeley.edu
+vim comparisons.tsv
+ls
+cd ..
+ls
+cd unitTest_computers/
+ls
+ls
+vi selections.tsv
+vim cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+jupyter notebook
+tmux kill-server
+/cbc_hb.py 
+ls
+tmux 
+tmux 
+ls
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+clear
+clear
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+clear
+ssh cs61c-agb@hive12.cs.berkeley.edu
+clear
+ls
+tmux
+tmux
+ssh cs61c-agb@hive12.cs.berkeley.edu
+clear
+vim comparisons.tsv
+ls
+cd ..
+ls
+cd conjoint\ package\ data/
+ls
+cd tea/
+ls
+vi preference.txt 
+ls
+vi profiles.txt 
+vi simulation.txt 
+vi att_level.txt 
+ls
+cd ..
+ls
+cd herbata/
+ls
+vi preference.txt 
+ls
+vi profiles.txt 
+ls
+vi simulation.txt 
+ls
+cd ..
+ls
+oepn .
+open .
+cd ..
+ls
+cd unitTest_computers/
+ls
+vi profiles.tsv 
+vi comparisons.tsv 
+vim cbc_hb.py
+ -w '/Users/William/.tmux/resurrect/bash_history-conjoint:3.0'
+gem install vimgolf
+vimgolf setup
+gem env
+vimgolf
+vimgolf help
+gem install vimgolf
+vimgolf setup
+ruby -v
+gem -v
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+ssh cs61c-agb@hive12.cs.berkeley.edu
+git clone https://github.com/dadadel/pyment.git
+ls
+cd pyment
+python setup.py install
+ls
+cd ..
+ls
+cd pyment/
+vi README.rst 
+cd ..
+rm -rf pyment/
+ls
+vi .tmux.conf 
+source ~/.tmux.conf
+tmux source-file ~/.tmux.conf
+ls
+ls
+rm cbc_hb.py.patch 
+cd code/
+ls
+pyment cbc_hb.py 
+vi cbc_hb.py.patch 
+pyment -o numpydoc cbc_hb.py
+ls
+vi cbc_hb.py
+vi cbc_hb.py.patch 
+patch -p1 < cbc_hb.py.patch 
+pyment -o numpydoc cbc_hb.py
+vi cbc_hb.py.patch 
+ls
+tmux
+ssh cs61c-agb@hive12.cs.berkeley.edu
+vim comparisons.tsv
+cd ..
+ls
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:1.0'
+cd unitTest_computers/
+ls
+vi comparisons.tsv 
+ls
+tmux 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:1.0'
+vim cbc_hb.py
+vim cbc_hb.py
+cd ../..
+ls
+cd code/
+ls
+rm cbc_hb.py.patch 
+ls
+python -m pdb cbc_hb.py
+python -m pdb cbc_hb.py
+python -m pdb cbc_hb.py
+python -m pdb cbc_hb.py
+cd ..
+ls
+python -m pdb code/cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git status
+git commit -a -m 'Fixed normalization and implemented relative importance'
+git push
+tmux
+vim cbc_hb.py
+vim cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+ls
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+python code/cbc_hb.py 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+jupyter notebook
+cd Documents/roman_coinage/
+ls
+jupyter notebook
+cd Documents/
+cd Conjoint/
+ls
+jupyter notebook
+tmux 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:1.0'
+cd lemonade/
+vi comparisons.tsv 
+vim cbc_hb.py
+vim cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+jupyter notebook
+tmux
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:1.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git status
+git commit -a -m 'Updated documentation and ready to add normalizing term'
+git push
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'

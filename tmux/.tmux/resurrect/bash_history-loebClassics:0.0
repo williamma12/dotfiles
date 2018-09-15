@@ -1,0 +1,500 @@
+git pull
+ssh williamma@scf-ug02.berkeley.edu
+ls
+tmux 
+vim comparisons.tsv
+vim cbc_hb.py
+vim cbc_hb.py
+vim run_cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+jupyter notebook
+vim conjoint18.tex
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git pull
+git status
+git commit -a -m 'Added calculation of WTP'
+git push
+git pull
+git pull
+git pull
+git pull
+git fetch --all
+git pull
+git reset --hard
+git pull
+cd code/__pycache__/
+rm cbc_hb.cpython-35.pyc 
+rm cbc_hb.cpython-36.pyc 
+cd ../../..
+ls
+cd Conjoint/
+git pull
+ssh williamma@scf-ug02.berkeley.edu
+ls
+cd Documents/roman_coinage/
+ls
+jupyter notebook
+ls
+cd Documents/roman_coinage/
+ls
+git status
+git status
+git commit -a -m 'Updated plots and added new constantine mints by year plot'
+git push
+git checkout gh-pages
+git status
+git checkout master Plots
+git status
+ls
+git checkout master
+git status
+git add -A
+git status
+git reset HEAD
+git status
+git status
+git status
+git add -A
+git status
+git commit -a -m 'Updated plots'
+git push
+git checkout gh-pages
+gits tatus
+git status
+git checkout master Plots
+git status
+vi README.md 
+git status
+git commit -a -m 'Updated README'
+git push
+git checkout master
+git status
+cd Documents/roman_coinage/
+jupyter
+jupyter notebook
+ls
+ls
+cd Documents/
+ls
+cd roman_coinage/
+git status
+git commit -a -m 'Minor changes'
+git push
+git checkout gh-pages
+ls
+vi README.md 
+git status
+clear
+git status
+git commit -a -m 'updated readme to include descriptions of the plots'
+git push
+ls
+git checkout master
+git status
+ls
+jupyter notebook
+git status
+git commit -a -m 'Updated Constantine plot to avoid overlap of color
+'
+git push
+git checkout gh-pages
+git status
+git checkout master Plots
+git status
+git commit -a -m 'Updated plots'
+git push
+git checkout master
+ssh williamma@scf-ug02.berkeley.edu
+tmux a
+tmux
+vim comparisons.tsv
+vim cbc_hb.py
+vim run_cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git pull
+git pull
+vim conjoint18.tex
+ssh williamma@scf-ug02.berkeley.edu
+tmux 
+ssh williamma@scf-ug02.berkeley.edu
+ssh -N -f -L 8888:localhost:9000 fergus@funkyserver
+ssh -N -f -L 8888:localhost:9000 williamma@scf-ug02.berkeley.edu
+ssh -N -f -L 8888:localhost:9000 williamma@scf-ug02.berkeley.edu
+ssh -N -L 8888:localhost:9000 williamma@scf-ug02.berkeley.edu
+jobs
+ssh -N -L 8888:localhost:9001 williamma@scf-ug02.berkeley.edu
+ssh -N -L localhost:8888:localhost:9000 williamma@scf-ug02.berkeley.edu
+netstat
+netstat -tulpn | grep 3000 
+tmux a
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+vim cbc_hb.py
+vim cbc_hb.py
+vim run_cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+ls
+scp -r williamma@scf-ug02.berkeley.edu:~/Documents/Conjoint/modelTest_hardDrives ./
+scp -r williamma@scf-ug02.berkeley.edu:~/Documents/Conjoint/modelTest_hardDrives ./
+scp -r williamma@scf-ug02.berkeley.edu:~/Documents/Conjoint/modelTest_hardDrives ./
+scp -r williamma@scf-ug02.berkeley.edu:~/Documents/Conjoint/modelTest_hardDrives ./
+scp -r williamma@scf-ug02.berkeley.edu:~/Documents/Conjoint/modelTest_hardDrives ./
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+jupyter notebook
+jupyter notebook
+vim comparisons.tsv
+vim conjoint18.tex
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git pull
+git pull
+git pull
+git status
+git fetch --all
+git reset --hard
+git status
+git commit -a -m 'Updated modelTest_hardDrives'
+git push
+git status
+git commit -a -m 'Updated model'
+git push
+git status
+git commit -a -m 'Updated model again'
+git push
+git commit -a -m 'Update removes NONE option to see if i get results working'
+git push
+git status
+clear
+git commit -a -m 'Added back in NONE option and increased survey size'
+git push
+git commit -a -m 'Added back in NONE option and increased survey size but reduced respondents back to 10 per agent'
+git push
+git commit -a -m 'reduced survey size to 50'
+git push
+git status
+git commit -a -m 'Minor changes'
+git push
+git status
+git commit -a -m 'Undid minnor changes'
+git push
+git commit -a -m 'i want to watch brooklyn 99 in peace... please work'
+git push
+git commit -a -m 'please work'
+git push
+tmux
+ssh williamma@scf-ug02.berkeley.edu
+tmux 
+vim run_cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+jupyter notebook
+vim conjoint18.tex
+is works'
+git push
+git commit -a -m 'OOOO im getting close'
+git push
+git commit -a -m 'Slowly closer'
+git push
+git status
+git commit -a -m 'minor updates'
+git push
+tmux 
+ssh williamma@scf-ug02.berkeley.edu
+clear
+ssh williamma@scf-ug02.berkeley.edu
+vim comparisons.tsv
+vim cbc_hb.py
+vim run_cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+vim conjoint18.tex
+cd Desktop/Conjoint/
+ls
+cd data/
+ls
+cp modelTest_hardDrives/100/selections.tsv modelTest_hardDrives/selections.tsv 
+cp modelTest_hardDrives/1000/selections.tsv modelTest_hardDrives/selections.tsv 
+cp modelTest_hardDrives/1000/selections.tsv example_washingMachines/selections.tsv 
+scp -r example_washingMachines williamma@scf-ug02.berkeley.edu:~/Documents/Conjoint/data/
+cd Desk
+cd Desktop/
+git clone https://github.com/pbstark/Conjoint.git
+git checkout ec8b8ac4ae7026eae
+ls
+cd Conjoint/
+git checkout ec8b8ac4ae7026eae
+ls
+jupyter notebook
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+clear
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+tmux 
+ls
+cd code
+ls
+mv Create\ custom\ datasets.py generate_data.py
+vi generate_data.py 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+sq
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+tmux
+ls
+ls
+ssh williamma@scf-ug02.berkeley.edu
+Svim run_cbc_hb.py
+vim run_cbc_hb.py 
+vim code/generate_data.py 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:4.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+jupyter notebook
+vim comparisons.tsv
+vim cbc_hb.py
+vim conjoint18.tex
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git pull
+git status
+git reset HEAD --hard
+git pull
+git pull
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ls
+rm -rf modelTest_hardDrives/
+rm -rf tmp
+ls
+git pull
+ls
+rm -rf data/
+git pull
+git commit -a -m 'Updated examples data'
+git pull master data
+git pull data
+ls
+l
+git pull
+git checkout master data
+ls
+git status
+rm -rf data/example_smartphones/1*
+ls
+git status
+git status
+git commit -a -m 'Updated examples data'
+git push
+git status
+git add data/*
+git status
+git commit -m 'Resored the data deleted'
+git push
+git pull
+git status
+git commit -a -m 'Updated washingMachines example'
+git push
+ls
+cd Downloads
+git clone https://github.com/pbstark/Conjoint.git
+git reset --hard origin/master
+ssh williamma@scf-ug02.berkeley.edu
+ls
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+clear
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+tmux
+ssh williamma@scf-ug02.berkeley.edu
+vim run_cbc_hb.py
+Svim code/generate_data.py
+vim code/generate_data.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+python code/run_cbc_hb.py data/example_washingMachine/0 --seed_file seed.txt
+python code/run_cbc_hb.py data/example_washingMachines/0 --seed_file seed.txt
+python code/run_cbc_hb.py data/example_washingMachines/0 --seed_file seed.txt
+python code/run_cbc_hb.py data/example_washingMachines/0 --seed_file seed.txt
+python code/run_cbc_hb.py data/example_washingMachines/0 --seed_file seed.txt --iters 10
+jupyter notebook
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+tmux
+vim run_cbc_hb.py
+vim code/generate_data.py
+vim code/generate_data.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+vim comparisons.tsv
+vim cbc_hb.py
+vim conjoint18.tex
+vim conjoint18.tex
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git pull
+git pull
+ssh williamma@scf-ug02.berkeley.edu
+clear
+ssh williamma@scf-ug02.berkeley.edu
+tmux 
+tmux
+ssh williamma@scf-ug02.berkeley.edu
+vim run_cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+vim comparisons.tsv
+ls
+vi README.md 
+vim cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git pull
+git commit -a -m 'did writing'
+git push
+git pull
+cd code
+ls
+vi Create\ custom\ datasets.ipynb 
+cd ..
+ls
+git commit -a -m 'Merge commit'
+git push
+git status
+git commit -a -m 'Fix file'
+git push
+git status
+git commit -a -m 'Minor changes to manuscript'
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+tmux
+vim run_cbc_hb.py
+vim code/generate_data.py
+vim code/generate_data.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+vim comparisons.tsv
+vim cbc_hb.py
+vim conjoint18.tex
+vim conjoint18.tex
+vim conjoint18.tex
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git status
+git commit -a -m 'Updated manuscript to all be in passive voice'
+git push
+l Manuscript/
+rm Manuscript/.conjoint18.bib.swp 
+git status
+git commit -a -m 'Added citations for all but court cases'
+git push
+git commit -a -m 'Minor changes'
+git push
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+s
+clear
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+tmux 
+vim run_cbc_hb.py
+Svim code/generate_data.py
+vim code/generate_data.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+jupyter notebook
+vim comparisons.tsv
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+clear
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+tmux 
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+vim run_cbc_hb.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+vim code/generate_data.py
+vim code/generate_data.py
+vim comparisons.tsv
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git status
+git commit -a -m 'Update paper'
+git push
+git pull
+git push
+git commit -a -m 'Finished washing machines example'
+git push
+vim conjoint18.tex
+vim conjoint18.tex
+vim conjoint18.tex
+vim conjoint18.tex
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+tmux a
+tmux
+ssh williamma@scf-ug02.berkeley.edu
+clear
+ssh williamma@scf-ug02.berkeley.edu
+sq
+clear
+ssh williamma@scf-ug02.berkeley.edu
+clear
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+vim run_cbc_hb.py
+vim code/generate_data.py
+vim code/generate_data.py
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:5.0'
+vim comparisons.tsv
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+cd Documents/loebClassics_search/
+git status
+jupyter notebook
+cd Documents/roman_coinage/
+jupyter notebook
+vi tmp
+ls
+cd Documents/
+cd loebClassics_search/
+ls
+python3 Scraper.
+python3 Scraper.py
+vi Scraper.
+vi Scraper.py 
+python3 Scraper.py 
+vi Scraper.py 
+python3 Scraper.py 
+vi Scraper.py 
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+clear
+ssh williamma@scf-ug02.berkeley.edu
+ssh williamma@scf-ug02.berkeley.edu
+cd Documents/loebClassics_search/
+ls
+ history -w '/Users/William/.tmux/resurrect/bash_history-loebClassics:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-loebClassics:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-loebClassics:0.0'

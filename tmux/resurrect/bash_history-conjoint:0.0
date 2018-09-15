@@ -1,0 +1,500 @@
+ls
+cd Plots/
+ls
+cd ..
+ls
+git commit -a -m 'Added specific words plots and generalized main words plots function'
+git push origin master
+git checkout gh-pages
+git cherry-pick Plots/
+git cherrypick master
+git cherry-pick master
+git reset --hard origin gh-pages
+git reset --hard gh-pages
+git checkout master Plots/
+git status
+git commit -a -m 'Updated plots'
+git push origin gh-pages
+git checkout master
+cd Documents/roman_coinage/
+ls
+git status
+jupyter notebook
+git status
+git add -A
+git commit -a -m 'Updated plots'
+git push origin master
+cd Documents/
+ls
+cd roman_coinage/
+ls
+jupyter notebook
+git status
+git add -A
+git commit -a -m 'Cleaned the materials column'
+git status
+git push origin master
+ls
+git status
+git checkout gh-pages
+git checkout master Plots/
+git status
+git status
+ls
+python generate_README.py 
+git status
+git commit -a -m 'Updated plots'
+git push origin gh-pages
+git checkout master
+tmux kill-session
+ls
+cd .vim
+ls
+cd bundle
+ls
+rm -rf YouCompleteMe/
+ls
+cd
+man curl
+curl ls
+ls
+ls
+ls
+rm -rf proj2-agb/
+ls
+rm imports-85.data 
+ls
+cd Documents/
+ls
+git clone https://github.com/williamma12/lifestyles
+ls
+cd lifestyles/
+ls
+vi MANIFEST.in 
+vi requirements.txt 
+vi LICENSE 
+ls
+cd data/
+ls
+cd computer_buyers/
+ls
+vi design_matrix.csv 
+cd ..
+ls
+cd ..
+ls
+cd lifestyles/
+ls
+ls
+cd models/
+ls
+cd ..
+ls
+vi __version__.py 
+ls
+cd models/
+ls
+vi cbc.py
+tmux conjoint_analysis
+ls
+ls
+vi cbc.py
+ls
+pushd ~/.vim
+ls
+cd bundle/
+ls
+rm syntastic/
+rm -rf syntastic/
+ls
+cd ..
+popd
+ls
+vi cbc.py
+python cbc.py
+cd ..
+ls
+cd ..
+ls
+cd lifestyles/
+cd models/
+ls
+vi cbc.py
+python cbc.py 
+pip install theano
+ls
+vi cbc.py
+python cbc.py
+vi cbc.py 
+python cbc.py 
+vi cbc.py 
+ls
+vi cbc.hb
+vi cbc_hb.py 
+python cbc_hb.py 
+source python2
+source activate python2
+python cbc_hb.py 
+pip install theano
+python cbc_hb.py 
+pip install pymc3
+python cbc_hb.py 
+vi cbc_hb.py 
+python cbc_hb.py 
+ls
+vi cbc_hb.py 
+ls
+cd Documents/
+ls
+ls
+ls
+tmux 
+tmux -s conjoint
+tmux --help
+man tmux
+tmux -S conjoint
+tmux ls
+ls
+tmux a conjoint
+tmux a
+man tmux
+tmux -S conjoint ls
+exit
+cd Documents/lifestyles/lifestyles/models/
+ls
+vi cbc_hb.py 
+ls
+cd Documents/lifestyles/
+ls
+cd lifestyles/
+l
+cd models/
+ls
+vi cbc.py
+cd ..
+cd ..
+ls
+cd data/
+ls
+cd lemonade/
+ls
+vi comparisons.tsv 
+ls
+ls
+cd Documents/
+ls
+cd ..
+ls
+vi conjoint 
+cd conjoint 
+vi conjoint 
+ls
+cd Documents/
+ls
+cd lifestyles/
+ls
+ls
+ls
+source activate python2
+clear
+python lifestyles/models/cbc_hb.py 
+pushd ~
+ls
+l
+vi .tmux.conf 
+pushd
+pushd
+popd
+python lifestyles/models/cbc_hb.py 
+pushd ~
+vi .tmux.conf 
+popd
+ls
+cd Documents/
+ls
+mkdir 61c
+cd 61c
+ls
+scp -r cs61c-xxx@hive21.cs.berkeley.edu:~cs61c/labs/05
+scp -r cs61c-agb@hive21.cs.berkeley.edu:~cs61c/labs/05
+scp -r cs61c-agb@hive21.cs.berkeley.edu:~cs61c/labs/05 ./
+ls
+ssh cs61c-agb@hive5.cs.berkeley.edu
+tmux kill-session
+tmux kill-session
+ls
+tmux kill-session
+tmux kill-session
+ls
+tmux -S conjoint a
+tmux -S conjoint
+tmus -S conjoint ls
+tmux -S conjoint ls
+tmux ls
+tmux -S conjoint ls
+tmux conjoint ls
+tmux -s conjoint
+tmux -S conjoint
+ls
+tmux ls
+tmux 
+cd conjoint 
+ls conjoint 
+vi conjoint 
+tmux -S conjoint
+rm conjoint 
+ls
+tmux 
+cd Documents/
+ls
+cd hw-stat133-williamma12/
+ls
+cd hw02/
+ls
+cd ..
+ls
+cd hw01
+ls
+cp README.md ../hw02/
+cd ../hw02/
+ls
+vi README.md 
+mkdir data
+mkdir code
+mkdir output
+mkdir images
+mkdir report
+git status
+git add -A
+git status
+git commit -a -m 'Started hw02'
+git push origin master
+git pull
+git push origin master
+ls
+cd ..
+ls
+cd Documents/hw-stat133-williamma12/hw02/
+ls
+cd data/
+vi data-dictionary.md
+ls
+cd Documents/hw-stat133-williamma12/
+ls
+cd hw02/
+ls
+cd ..
+ls
+mkdir lab06
+cd lab06
+ls
+vi README.md
+mkdir data
+mkdir code
+mkdir output
+mkdir images
+ls
+cd data
+curl -O https://raw.githubusercontent.com/ucb-stat133/stat133-spring-2018/master/data/nba2017-players.csv
+ls
+ls
+cd Documents/lifestyles/lifestyles/models/cbc_hb.py 
+cd Documents/lifestyles/lifestyles/models/
+vi cbc_hb.py 
+ls
+l
+rm .cbc_hb.py.sw*
+ls
+vi cbc_hb.py 
+ls
+cd Documents/lifestyles/data/lemonade/
+ls
+vi comparisons.tsv 
+ls
+l
+rm *.swp
+rm .selections.tsv.swp 
+rm .profiles.tsv.swp 
+rm .comparisons.tsv.swp 
+ls
+l
+vi comparisons.tsv 
+.py.sw*
+ls
+vi cbc_hb.py 
+cd Documents/lifestyles/
+jupyter notebook
+vim cbc_hb.py
+vim comparisons.tsv
+vim cbc_hb.py
+vim comparisons.tsv
+tmux ls
+vim comparisons.tsv
+ls
+cd Documents/
+ls
+cd Conjoint/
+ls
+git status
+vi conjoint.txt 
+vi README.md 
+mkdir papers
+mv primer.docx papers/
+mv conjoint.txt papers/relevant_papers.txt
+ls
+mkdir code
+mkdir data
+ls
+pushd ../lifestyles/
+ls
+cd data/
+ls
+cd computer_buyers/
+ls
+vi design_matrix.csv 
+vi likelihood_to_buy.csv 
+cd ..
+cd ..
+cd data/
+mv * ../../Conjoint/data/
+pushd
+ls
+ls data/
+cd code/
+ls
+pushd
+ls
+ls
+popd
+ls
+ls
+pushd
+pwd
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+cd ..
+git status
+git add -A
+git commit -a -m 'Cleaned up filesystem and started code'
+git push 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git status
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ls
+ls
+python
+git status
+git commit -a -m 'Finished estimating alphas'
+git push origin master
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git pull
+ls
+cd co
+cd conjoint/
+ls
+cd ..
+ls
+pushd ~
+cd ~/.vim/bundle
+git clone https://github.com/Valloric/YouCompleteMe.git
+cd YouCompleteMe
+git submodule update --init --recursive
+./install.sh --clang-completer
+ls
+pwd
+cd ..
+cd ..
+ls
+vi .ycm_extra_conf.py
+vi .ycm_extra_conf.py
+ls
+cd ..
+ls
+vi .vimrc
+popd
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ls
+git status
+git commit -a -m 'Worked on implementing cbc_hb but pymc3 wont work with me'
+git push
+git status
+git branch cbc_numpy
+git checkout cbc_numpy
+git status
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git status
+git commit -a -m 'Implmemented most of the stuff in numpy'
+git status
+git push origin cbc_numpy
+git status
+git checkout master
+git pull
+git merge cbc_numpy
+git status
+git status
+git commit -a -m 'Finished implementing everything but has bug where H is not psd'
+git push origin master
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+git status
+git commit -a -m 'Added TODOs and fixed typos in code/cbc_hb.py'
+git pull origin master
+git push origin master
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ls
+git status
+git pull
+ls
+pushd ~
+ls
+l
+vi .tmux.conf
+source tmux.conf
+source .tmux.conf 
+tmux source ~/.tmux.conf
+vi .tmux.conf
+pushd
+ls
+git status
+git commit -a -m 'Fixed calcProbability to use the proper row in the comparison... Still returning nan or +/- 0...'
+git push origin master
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+ls
+pyment code/cbc_hb.py 
+git status
+git add data/unitTest_computers/selections.tsv 
+git commit -m 'Simplified computers unit test'
+git status
+git log
+git status
+git add code/cbc_hb.py
+git status
+git commit -m 'Refactored to account for attribute and parameter difference and started work on relative importance'
+git status
+git push
+git pull
+git push
+git log
+ls
+git status
+cd code/
+ls
+cd ..
+ls
+cd data/
+ls
+cd phone-counterexample/
+ls
+vi Explanation.rtf 
+vi Explanation.tsv 
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
+cd ../..
+ls
+ history -w '/Users/William/.tmux/resurrect/bash_history-conjoint:0.0'
