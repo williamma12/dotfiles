@@ -14,6 +14,7 @@ Plug 'lervag/vimtex'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'tmux-plugins/vim-tmux-focus-events'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -54,6 +55,10 @@ let g:lightline.subseparator = {
     \   'left': '', 'right': '' 
   \}
 
+" git-gutter settings
+" Decrease update time for git-gutter
+set updatetime=100
+
 
 "##################
 "#### Settings ####
@@ -63,6 +68,9 @@ let g:lightline.subseparator = {
 " highlighting, omni-completion and other useful settings.
 filetype plugin indent on
 syntax on
+
+" Auto update file when changing focus
+au FocusGained,BufEnter * :checktime
 
 " show existing tab with 4 spaces width
 set tabstop=4
@@ -95,9 +103,12 @@ set sidescrolloff=10
 " mappings leader
 let mapleader = ","
 let localleader = "."
-"
+
 " open NERDTree
 map <leader>n :NERDTreeToggle<CR>
+
+" Toggle gitgutter
+map <leader>u :GitGutterDisable<CR>:GitGutterEnable<CR>
 
 " General Mappings
 " remap esc to jk and unmap esc
@@ -112,13 +123,14 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 vnoremap <leader>c :'<,'>w !pbcopy<cr><cr>
 
 " Text Mappings
-" map to surround word in '', "", [], ()
+" map to surround word in '', "", [], (), ``
 nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
 nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 nnoremap <leader>[ viw<esc>a]<esc>bi[<esc>lel
 nnoremap <leader>] viw<esc>a]<esc>bi[<esc>lel
 nnoremap <leader>( viw<esc>a)<esc>bi(<esc>lel
 nnoremap <leader>) viw<esc>a)<esc>bi(<esc>lel
+nnoremap <leader>` viw<esc>a`<esc>bi`<esc>lel
 " set c-u capitalize word and s-u (normal only) to uppercase letter
 inoremap <c-u> <esc>viwUw
 nnoremap <c-u> viwUw
