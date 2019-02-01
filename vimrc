@@ -7,7 +7,7 @@ call plug#begin('~/.vim/plugged')
 
 " Declare the list of plugins.
 Plug 'ervandew/supertab'
-Plug 'arcticicestudio/nord-vim'
+Plug 'altercation/vim-colors-solarized'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'lervag/vimtex'
@@ -19,10 +19,8 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
-" Change colorscheme to nord 
-colorscheme nord
-let g:nord_italic_comments = 1
-let g:nord_comment_brightness = 20
+" Change colorscheme to onedark
+colorscheme solarized
 set termguicolors
 
 " NERDTree settings
@@ -35,7 +33,7 @@ let g:vimtex_view_method = 'skim'
 " Lightline settings
 set laststatus=2
 let g:lightline = {
-  \   'colorscheme': 'nord',
+  \   'colorscheme': 'solarized',
   \   'active': {
   \     'left':[ [ 'mode', 'paste' ],
   \              [ 'gitbranch', 'readonly', 'filename', 'modified' ]
