@@ -15,6 +15,8 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'tmux-plugins/vim-tmux-focus-events'
+Plugin 'tpope/vim-obsession'
+Plugin 'dhruvasagar/vim-prosession'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
