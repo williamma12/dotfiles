@@ -28,7 +28,6 @@ call plug#end()
 
 " Change colorscheme to onedark
 colorscheme solarized
-set termguicolors
 set background=dark
 
 " vimtex settings
