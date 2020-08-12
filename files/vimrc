@@ -6,22 +6,24 @@
 call plug#begin('~/.vim/plugged')
 
 " IDE Plugings
-Plug 'dyng/ctrlsf.vim'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'ervandew/supertab'
-Plug 'lervag/vimtex'
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-fugitive'
+Plug 'dyng/ctrlsf.vim'                  " Search files for search terms.
+Plug 'ctrlpvim/ctrlp.vim'               " Find and open files.
+Plug 'ervandew/supertab'                " Autocompletion.
+Plug 'lervag/vimtex'                    " Latex in vim.
+Plug 'tpope/vim-commentary'             " Comment out lines of code.
+Plug 'tpope/vim-fugitive'               " Git support in vim.
+Plug 'tommcdo/vim-fugitive-blame-ext'   " Add commit message to Gblame in vim-fugitive.
+Plug 'mg979/vim-visual-multi'           " Multiple cursors.
 
 " GUI Plugins
-Plug 'itchyny/lightline.vim'
-Plug 'altercation/vim-colors-solarized'
-Plug 'airblade/vim-gitgutter'
-Plug 'edkolev/tmuxline.vim'
+Plug 'itchyny/lightline.vim'                " Bottom status bar for vim.
+Plug 'altercation/vim-colors-solarized'     " Solarized support for vim.
+Plug 'airblade/vim-gitgutter'               " View changed lines wrt git next to line numbers.
+Plug 'edkolev/tmuxline.vim'                 " Support vim lightline with tmux.
 
 " Session Manager Plugins
-Plug 'tpope/vim-obsession'
-Plug 'dhruvasagar/vim-prosession'
+Plug 'tpope/vim-obsession'          " Create session with `:Obsess` (`!` to delete). 
+Plug 'dhruvasagar/vim-prosession'   " Create named sessions.
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -40,6 +42,19 @@ let g:ctrlp_extensions = ['mixed', 'tag']
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_user_command = 'find %s -type f' 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc
+let g:ctrlp_buffer_func = { 'enter': 'CtrlPMappings' }
+
+" Delete buffer using <C-@> in CtrlP
+function! CtrlPMappings()
+      nnoremap <buffer> <silent> <C-@> :call <sid>DeleteBuffer()<cr>
+  endfunction
+
+  function! s:DeleteBuffer()
+        let path = fnamemodify(getline('.')[2:], ':p')
+          let bufn = matchstr(path, '\v\d+\ze\*No Name')
+            exec "bd" bufn ==# "" ? path : bufn
+              exec "norm \<F5>"
+          endfunction
 
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|pyc|swp)$'
@@ -81,6 +96,22 @@ set updatetime=50
 
 " ctrl.vim settings
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" CtrlSF settings
+nmap     <C-F>f <Plug>CtrlSFPrompt
+vmap     <C-F>f <Plug>CtrlSFVwordPath
+vmap     <C-F>F <Plug>CtrlSFVwordExec
+nmap     <C-F>n <Plug>CtrlSFCwordPath
+nmap     <C-F>p <Plug>CtrlSFPwordPath
+nnoremap <C-F>o :CtrlSFOpen<CR>
+nnoremap <C-F>t :CtrlSFToggle<CR>
+inoremap <C-F>t <Esc>:CtrlSFToggle<CR>
+
+
+"##################
+"##### ctags ######
+"##################
+autocmd BufWritePost *.rs :silent! exec "!rusty-tags vi --quiet --start-dir=" . expand('%:p:h') . "&" | redraw!
 
 
 "##################
@@ -153,6 +184,7 @@ map <leader>u :GitGutterDisable<CR>:GitGutterEnable<CR>
 " General Mappings
 " remap esc to jk and unmap esc
 inoremap jk <esc>
+" vnoremap jk <esc>
 " remap H and L to beginning and end of line respectively
 nnoremap <s-h> 0
 nnoremap <s-l> $
@@ -160,12 +192,12 @@ vnoremap <s-h> 0
 vnoremap <s-l> $
 " map for easy access .vimrc
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
-nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>sv :so $MYVIMRC<cr>
 " Copy highlighted into clipboard
 vnoremap <leader>c :'<,'>w !pbcopy<cr><cr>
 
 " Text Mappings
-" map to surround word in '', "", [], (), ``
+" map to surround word in '', "", [], (), ``, <>
 nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
 nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 nnoremap <leader>[ viw<esc>a]<esc>bi[<esc>lel
@@ -173,8 +205,10 @@ nnoremap <leader>] viw<esc>a]<esc>bi[<esc>lel
 nnoremap <leader>( viw<esc>a)<esc>bi(<esc>lel
 nnoremap <leader>) viw<esc>a)<esc>bi(<esc>lel
 nnoremap <leader>` viw<esc>a`<esc>bi`<esc>lel
+nnoremap <leader>< viw<esc>a><esc>bi<<esc>lel
+nnoremap <leader>> viw<esc>a><esc>bi<<esc>lel
 " set c-u capitalize word and s-u (normal only) to uppercase letter
-" inoremap <c-u> <esc>viwUw
+inoremap <c-u> <esc>viwUw
 " nnoremap <c-u> viwUw
 nnoremap <s-u> vUl
 " map to delete word under cursor
