@@ -16,6 +16,7 @@ Plug 'tpope/vim-commentary'             " Comment out lines of code.
 Plug 'tpope/vim-fugitive'               " Git support in vim.
 Plug 'tommcdo/vim-fugitive-blame-ext'   " Add commit message to Gblame in vim-fugitive.
 Plug 'mbbill/undotree'                  " Undo tree.
+Plug 'ludovicchabant/vim-gutentags'     " Ctags manager
 
 " Language stuff
 Plug 'rust-lang/rust.vim'                           " Rust specific plugin.
@@ -216,9 +217,6 @@ set scrolloff=5
 set sidescrolloff=10
 
 " Permanent undo
-if !isdirectory("~/.vimdid")
-    call mkdir("~/.vimdid", "p")
-endif
 set undodir=~/.vimdid
 set undofile
 
