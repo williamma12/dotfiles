@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/William/dotfiles/~/.vimdid'
+let g:netrw_dirhist_5='/Users/William/dotfiles/~'
+let g:netrw_dirhist_4='/Users/William/dotfiles'
+let g:netrw_dirhist_3='/Users/William/dotfiles/scripts'
+let g:netrw_dirhist_2='~'
+let g:netrw_dirhist_1='/Users/William'
