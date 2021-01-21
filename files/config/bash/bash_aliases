@@ -5,4 +5,5 @@ alias glog1="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Crese
 alias vi="vi"
 alias vim="nvim"
 alias ll="ls -halt"
+alias mux="tmuxinator"
 

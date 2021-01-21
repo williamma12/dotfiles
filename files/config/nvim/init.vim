@@ -47,7 +47,6 @@ if !has('gui_running')
 endif
 set background=dark
 let base16colorspace=256
-let g:base16_shell_path="~/dev/others/base16/templates/shell/scripts/"
 colorscheme solarized
 syntax on
 hi Normal ctermbg=NONE
@@ -89,7 +88,8 @@ let g:lightline = {
   \   'colorscheme': 'solarized',
   \   'active': {
   \     'left':[ [ 'mode', 'paste' ],
-  \              [ 'cocstatus', 'readonly', 'relativepath', 'modified' ]
+  \              [ 'relativepath' ],
+  \              [ 'cocstatus', 'readonly', 'modified' ]
   \     ],
   \     'right': [ [ 'lineinfo' ],
   \                [ 'percent' ] ]
@@ -126,6 +126,7 @@ inoremap <C-F>t <Esc>:CtrlSFToggle<CR>
 
 " ctags
 " -----
+autocmd BufRead *.rs :setlocal tags=./.rusty-tags.vi;/
 autocmd BufWritePost *.rs :silent! exec "!rusty-tags vi --quiet --start-dir=" . expand('%:p:h') . "&" | redraw!
 
 " coc
@@ -152,18 +153,13 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-" Make <CR> auto-select the first completion item and notify coc.nvim to
-" format on enter, <cr> could be remapped by other vim plugin
-inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
-
 " undo tree
 " ---------
 nnoremap <F5> :UndotreeToggle<cr>
 
 " rust
 " ----
-nmap <leader>l :RustFmt<CR>
+nnoremap <leader>l :RustFmt<CR>
 
 
 " =============================================================================
@@ -202,6 +198,9 @@ set hidden
 
 " Incremental search, hit '<CR>' to stop.
 set incsearch
+
+" Toggle search highlighting.
+nnoremap <leader>/ :noh<CR>
 
 " Shows the current line number at the bottom.  right of the screen.
 set ruler
@@ -282,6 +281,9 @@ nnoremap <leader>j i<cr><esc>
 " Move tabs left and right
 noremap <Leader><Left>  :tabmove -1<CR>
 noremap <Leader><Right> :tabmove +1<CR>
+" Jump to beginning/end of line
+noremap <s-h> 0
+noremap <s-l> $
 
 " =============================================================================
 " # Autocommands
