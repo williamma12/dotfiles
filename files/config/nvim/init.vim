@@ -10,13 +10,15 @@ let localleader = "."
 call plug#begin('~/.vim/plugged')
 
 " IDE Plugings
-Plug 'dyng/ctrlsf.vim'                  " Search files for search terms.
-Plug 'ctrlpvim/ctrlp.vim'               " Find and open files.
-Plug 'tpope/vim-commentary'             " Comment out lines of code.
-Plug 'tpope/vim-fugitive'               " Git support in vim.
-Plug 'tommcdo/vim-fugitive-blame-ext'   " Add commit message to Gblame in vim-fugitive.
-Plug 'mbbill/undotree'                  " Undo tree.
-Plug 'ludovicchabant/vim-gutentags'     " Ctags manager
+Plug 'dyng/ctrlsf.vim'                      " Search files for search terms.
+Plug 'ctrlpvim/ctrlp.vim'                   " Find and open files.
+Plug 'tpope/vim-commentary'                 " Comment out lines of code.
+Plug 'tpope/vim-fugitive'                   " Git support in vim.
+Plug 'tommcdo/vim-fugitive-blame-ext'       " Add commit message to Gblame in vim-fugitive.
+Plug 'mbbill/undotree'                      " Undo tree.
+Plug 'ludovicchabant/vim-gutentags'         " Ctags manager.
+Plug 'preservim/nerdtree'                   " File explorer.
+Plug 'PhilRunninger/nerdtree-buffer-ops'    " Manage buffers in file explorer.
 
 " Language stuff
 Plug 'rust-lang/rust.vim'                           " Rust specific plugin.
@@ -128,6 +130,7 @@ inoremap <C-F>t <Esc>:CtrlSFToggle<CR>
 " -----
 autocmd BufRead *.rs :setlocal tags=./.rusty-tags.vi;/
 autocmd BufWritePost *.rs :silent! exec "!rusty-tags vi --quiet --start-dir=" . expand('%:p:h') . "&" | redraw!
+map <C-\> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 " coc
 " ---
@@ -160,6 +163,10 @@ nnoremap <F5> :UndotreeToggle<cr>
 " rust
 " ----
 nnoremap <leader>l :RustFmt<CR>
+
+" NerdTree
+" --------
+nnoremap <C-t> :NERDTreeToggle<CR>
 
 
 " =============================================================================

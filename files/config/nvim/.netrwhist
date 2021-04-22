@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/William/Documents/crustydb/src/cli-crusty'
+let g:netrw_dirhist_2='/Users/William/Documents/modin/modin/pandas'
 let g:netrw_dirhist_1='/Users/William/Documents/crustydb-master/src/queryexe/src/query'
 let g:netrw_dirhist_0='/Users/William/Documents/QueryBot5000/templates'
 let g:netrw_dirhist_9='/Users/William/Documents/fa20-project/.git'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_7='/Users/William/Documents/crustydb-master/src/common/src'
 let g:netrw_dirhist_6='/Users/William/dotfiles/~/.vimdid'
 let g:netrw_dirhist_5='/Users/William/dotfiles/~'
 let g:netrw_dirhist_4='/Users/William/dotfiles'
-let g:netrw_dirhist_3='/Users/William/dotfiles/scripts'
-let g:netrw_dirhist_2='~'
