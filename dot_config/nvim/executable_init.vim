@@ -187,6 +187,11 @@ nnoremap <leader>l :RustFmt<CR>
 " --------
 nnoremap <C-t> :NERDTreeToggle<CR>
 
+" chezmoi
+" -------
+"  Automatically update dotfiles repo when saving.
+autocmd BufWritePost ~/.local/share/chezmoi/* ! chezmoi apply --source-path %
+
 
 " =============================================================================
 " # Editor settings
