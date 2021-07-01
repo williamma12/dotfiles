@@ -1,0 +1,14 @@
+# Homebrew stuff
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Colors
+export CLICOLOR=1
+export LS_COLORS=gxfxbEaEBxxEhEhBaDaCaD
+alias ls="ls -lGH" # Use LS_COLORS
+zstyle ':completion:*' list-colors
+
+# Aliases
+alias glog1="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias vi="nvim"
+alias vim="nvim"
+alias ll="ls -halt"
