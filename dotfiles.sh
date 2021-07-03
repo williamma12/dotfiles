@@ -3,8 +3,12 @@
 # Install HomeBrew
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install neovim, tmux, zsh, chezmoi
-brew install neovim tmux zsh chezmoi
+# Install stuff
+brew install neovim
+brew install tmux
+brew install zsh
+brew install chezmoi
+brew install node
 
 # Install NeoVim plugins
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
