@@ -10,6 +10,7 @@ brew install zsh
 brew install chezmoi    # Dotfile manager
 brew install node       # Used for vim-coc
 brew install ripgrep    # Used for vim-ctrlSF
+brew install ctags      # Install exuberant-ctags for vim-gutentags
 
 # Install NeoVim plugins
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
