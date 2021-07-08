@@ -7,8 +7,9 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 brew install neovim
 brew install tmux
 brew install zsh
-brew install chezmoi
-brew install node
+brew install chezmoi    # Dotfile manager
+brew install node       # Used for vim-coc
+brew install ripgrep    # Used for vim-ctrlSF
 
 # Install NeoVim plugins
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
