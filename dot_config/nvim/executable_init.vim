@@ -189,6 +189,7 @@ let g:gutentags_ctags_exclude = [
 
 " tagbar
 " ------
+let g:tagbar_ctags_bin = "/opt/homebrew/bin/ctags"
 nmap <F8> :TagbarToggle<CR>
 
 " coc
