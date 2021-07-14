@@ -7,10 +7,10 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 brew install neovim
 brew install tmux
 brew install zsh
-brew install chezmoi    # Dotfile manager
-brew install node       # Used for vim-coc
-brew install ripgrep    # Used for vim-ctrlSF
-brew install ctags      # Install exuberant-ctags for vim-gutentags
+brew install chezmoi                                                    # Dotfile manager
+brew install node                                                       # Used for vim-coc
+brew install ripgrep                                                    # Used for vim-ctrlSF
+brew install --HEAD universal-ctags/universal-ctags/universal-ctags     # Install universal-ctags for vim-gutentags
 
 # Install NeoVim plugins
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \

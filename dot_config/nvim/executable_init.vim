@@ -16,12 +16,15 @@ Plug 'tpope/vim-commentary'                 " Comment out lines of code.
 Plug 'tpope/vim-fugitive'                   " Git support in vim.
 Plug 'tommcdo/vim-fugitive-blame-ext'       " Add commit message to Gblame in vim-fugitive.
 Plug 'mbbill/undotree'                      " Undo tree.
+Plug 'preservim/tagbar'                     " Tag bar for viewing tags.
 Plug 'ludovicchabant/vim-gutentags'         " Ctags manager.
 Plug 'preservim/nerdtree'                   " File explorer.
 Plug 'PhilRunninger/nerdtree-buffer-ops'    " Manage buffers in file explorer.
 
 " Language stuff
 Plug 'rust-lang/rust.vim'                           " Rust specific plugin.
+Plug 'google/vim-jsonnet'                           " Jsonnet plugin.
+Plug 'derekwyatt/vim-scala'                         " Scala plugin.
 Plug 'neoclide/coc.nvim', {'branch': 'release'}     " Language server
 
 " GUI Plugins
@@ -183,6 +186,10 @@ let g:gutentags_ctags_exclude = [
       \ '*.rar', '*.zip', '*.tar', '*.tar.gz', '*.tar.xz', '*.tar.bz2',
       \ '*.pdf', '*.doc', '*.docx', '*.ppt', '*.pptx',
       \ ]
+
+" tagbar
+" ------
+nmap <F8> :TagbarToggle<CR>
 
 " coc
 " ---
