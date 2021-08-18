@@ -72,7 +72,7 @@ let g:ctrlp_custom_ignore = {
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_buffer_func = { 'enter': 'CtrlPBDelete' }
 function! CtrlPBDelete()
-  nnoremap <buffer> <silent> <c-@> :call <sid>DeleteMarkedBuffers()<cr>
+  nnoremap <buffer> <silent> <c-_> :call <sid>DeleteMarkedBuffers()<cr>
 endfunction
 function! s:DeleteMarkedBuffers()
   " list all marked buffers
