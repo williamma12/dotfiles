@@ -12,7 +12,6 @@ call plug#begin('~/.vim/plugged')
 " IDE Plugings
 Plug 'dyng/ctrlsf.vim'                      " Search files for search terms.
 Plug 'ctrlpvim/ctrlp.vim'                   " Find and open files.
-Plug 'd11wtq/ctrlp_bdelete.vim'             " Delete buffers in ctrlp.
 Plug 'tpope/vim-commentary'                 " Comment out lines of code.
 Plug 'tpope/vim-fugitive'                   " Git support in vim.
 Plug 'tommcdo/vim-fugitive-blame-ext'       " Add commit message to Gblame in vim-fugitive.
@@ -71,7 +70,29 @@ let g:ctrlp_custom_ignore = {
   \ 'link': 'some_bad_symbolic_links',
   \ }
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-call ctrlp_bdelete#init()
+let g:ctrlp_buffer_func = { 'enter': 'CtrlPBDelete' }
+function! CtrlPBDelete()
+  nnoremap <buffer> <silent> <c-@> :call <sid>DeleteMarkedBuffers()<cr>
+endfunction
+function! s:DeleteMarkedBuffers()
+  " list all marked buffers
+  let marked = ctrlp#getmarkedlist()
+
+  " the file under the cursor is implicitly marked
+  if empty(marked)
+    call add(marked, fnamemodify(ctrlp#getcline(), ':p'))
+  endif
+
+  " call bdelete on all marked buffers
+  for fname in marked
+    let bufid = fname =~ '\[\d\+\*No Name\]$' ? str2nr(matchstr(fname, '\d\+'))
+          \ : fnamemodify(fname[2:], ':p')
+    exec "silent! bdelete" bufid
+  endfor
+
+  " refresh ctrlp
+  exec "normal \<F5>"
+endfunction
 
 " Lightline 
 " ---------
