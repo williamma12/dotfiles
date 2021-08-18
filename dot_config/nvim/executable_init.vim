@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
 " IDE Plugings
 Plug 'dyng/ctrlsf.vim'                      " Search files for search terms.
 Plug 'ctrlpvim/ctrlp.vim'                   " Find and open files.
+Plug 'd11wtq/ctrlp_bdelete.vim'             " Delete buffers in ctrlp.
 Plug 'tpope/vim-commentary'                 " Comment out lines of code.
 Plug 'tpope/vim-fugitive'                   " Git support in vim.
 Plug 'tommcdo/vim-fugitive-blame-ext'       " Add commit message to Gblame in vim-fugitive.
@@ -62,30 +63,15 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_extensions = ['mixed', 'tag']
 let g:ctrlp_working_path_mode = 'ra'
-let g:ctrlp_user_command = 'find %s -type f' 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc
-let g:ctrlp_buffer_func = { 'enter': 'CtrlPMappings' }
-
-" Delete buffer using <C-@> in CtrlP
-function! CtrlPMappings()
-      nnoremap <buffer> <silent> <C-@> :call <sid>DeleteBuffer()<cr>
-  endfunction
-
-  function! s:DeleteBuffer()
-        let path = fnamemodify(getline('.')[2:], ':p')
-          let bufn = matchstr(path, '\v\d+\ze\*No Name')
-            exec "bd" bufn ==# "" ? path : bufn
-              exec "norm \<F5>"
-          endfunction
-
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|pyc|swp)$'
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn|venv*)$',
   \ 'file': '\v\.(exe|so|dll|pyc|swp)$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+call ctrlp_bdelete#init()
 
 " Lightline 
 " ---------
