@@ -6,6 +6,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 # Install stuff
 brew install neovim
 brew install tmux
+brew install fzf
 brew install zsh
 brew install chezmoi                                                    # Dotfile manager
 brew install node                                                       # Used for vim-coc
@@ -24,4 +25,5 @@ tmux source ~/.tmux.conf
 
 # Install oh-my-zsh and plugins
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 source ~/.zshrc
