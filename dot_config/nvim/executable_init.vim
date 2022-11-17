@@ -295,7 +295,7 @@ xmap <silent> <C-s> <Plug>(coc-range-select)
 
 " undo tree
 " ---------
-nnoremap <F5> :UndotreeToggle<cr>
+nnoremap <F6> :UndotreeToggle<cr>
 
 " rust
 " ----
