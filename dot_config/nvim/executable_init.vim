@@ -71,7 +71,7 @@ let g:ctrlp_custom_ignore = {
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_buffer_func = { 'enter': 'CtrlPBDelete' }
 function! CtrlPBDelete()
-  nnoremap <buffer> <silent> <c-_> :call <sid>DeleteMarkedBuffers()<cr>
+  nnoremap <buffer> <silent> <c-F10> :call <sid>DeleteMarkedBuffers()<cr>
 endfunction
 function! s:DeleteMarkedBuffers()
   " list all marked buffers
@@ -207,12 +207,16 @@ nmap <F8> :TagbarToggle<CR>
 " TextEdit might fail if hidden is not set.
 set hidden
 
+" vim-jsonnet
+" -----------
+let g:jsonnet_fmt_on_save = 0
+
 " Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
 
 " Global extensions
-let g:coc_global_extensions = ['coc-rust-analyzer']
+" let g:coc_global_extensions = ['coc-rust-analyzer']
 
 " Give more space for displaying messages.
 set cmdheight=2" Use tab for trigger completion with characters ahead and navigate.
