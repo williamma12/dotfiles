@@ -10,6 +10,7 @@ zstyle ':completion:*' list-colors
 
 # Aliases
 alias glog1="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias git-branch="git branch --sort=-committerdate"
 alias vi="nvim"
 alias vim="nvim"
 alias lls="ls -halt"
