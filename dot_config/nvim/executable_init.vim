@@ -2,58 +2,26 @@
 let mapleader = ","
 let localleader = "."
 
-" =============================================================================
-" # PLUGINS
-" =============================================================================
+lua require("plugins")
+lua require("plugins.lsp_zero")
 
-" Plugins will be downloaded under the specified directory.
-call plug#begin('~/.vim/plugged')
+" if has('nvim')
+"     set guicursor=n-v-c:block-Cursor/lCursor-blinkon0,i-ci:ver25-Cursor/lCursor,r-cr:hor20-Cursor/lCursor
+"     set inccommand=nosplit
+"     noremap <C-q> :confirm qall<CR>
+" end
 
-" IDE Plugings
-Plug 'dyng/ctrlsf.vim'                      " Search files for search terms.
-Plug 'ctrlpvim/ctrlp.vim'                   " Find and open files.
-Plug 'tpope/vim-commentary'                 " Comment out lines of code.
-Plug 'tpope/vim-fugitive'                   " Git support in vim.
-Plug 'tommcdo/vim-fugitive-blame-ext'       " Add commit message to Gblame in vim-fugitive.
-Plug 'mbbill/undotree'                      " Undo tree.
-Plug 'preservim/tagbar'                     " Tag bar for viewing tags.
-Plug 'ludovicchabant/vim-gutentags'         " Ctags manager.
-Plug 'preservim/nerdtree'                   " File explorer.
-Plug 'PhilRunninger/nerdtree-buffer-ops'    " Manage buffers in file explorer.
-
-" Language stuff
-Plug 'rust-lang/rust.vim'                           " Rust specific plugin.
-Plug 'google/vim-jsonnet'                           " Jsonnet plugin.
-Plug 'neoclide/coc.nvim', {'branch': 'release'}     " Language server
-
-" GUI Plugins
-Plug 'itchyny/lightline.vim'                " Bottom status bar for vim.
-Plug 'altercation/vim-colors-solarized'     " Solarized support for vim.
-Plug 'airblade/vim-gitgutter'               " View changed lines wrt git next to line numbers.
-Plug 'edkolev/tmuxline.vim'                 " Support vim lightline with tmux.
-
-" Session Manager Plugins
-Plug 'tpope/vim-obsession'          " Create session with `:Obsess` (`!` to delete). 
-Plug 'dhruvasagar/vim-prosession'   " Create named sessions.
-
-" List ends here. Plugins become visible to Vim after this call.
-call plug#end()
-
-if has('nvim')
-    set guicursor=n-v-c:block-Cursor/lCursor-blinkon0,i-ci:ver25-Cursor/lCursor,r-cr:hor20-Cursor/lCursor
-    set inccommand=nosplit
-    noremap <C-q> :confirm qall<CR>
-end
+lua require("colorscheme")
 
 " deal with colors
-if !has('gui_running')
-  set t_Co=256
-endif
-set background=dark
-let base16colorspace=256
-colorscheme solarized
-syntax enable
-hi Normal ctermbg=NONE
+" if !has('gui_running')
+"   set t_Co=256
+" endif
+" set background=dark
+" let base16colorspace=256
+" colorscheme solarized
+" syntax enable
+" hi Normal ctermbg=NONE
 
 " CtrlP
 " -----
@@ -101,7 +69,7 @@ let g:lightline = {
   \   'active': {
   \     'left':[ [ 'mode', 'paste' ],
   \              [ 'relativepath' ],
-  \              [ 'cocstatus', 'readonly', 'modified' ]
+  \              [ 'readonly', 'modified' ]
   \     ],
   \     'right': [ [ 'lineinfo' ],
   \                [ 'percent' ] ]
@@ -116,7 +84,6 @@ let g:lightline = {
   \   },
   \   'component_function': {
   \     'gitbranch': 'fugitive#head',
-  \     'cocstatus': 'coc#status',
   \   },
   \   'separator': { 'left': '', 'right': '' },
   \   'subseparator': { 'left': '', 'right': '' },
@@ -137,173 +104,18 @@ nnoremap <C-F>o :CtrlSFOpen<CR>
 nnoremap <C-F>t :CtrlSFToggle<CR>
 inoremap <C-F>t <Esc>:CtrlSFToggle<CR>
 
-" ctags
-" -----
-autocmd BufRead *.rs :setlocal tags=./.rusty-tags.vi;/
-autocmd BufWritePost *.rs :silent! exec "!rusty-tags vi --quiet --start-dir=" . expand('%:p:h') . "&" | redraw!
-map <C-\> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
-let g:gutentags_add_default_project_roots = 0 
-let g:gutentags_project_root = ['package.json', '.git']
-let g:gutentags_generate_on_new = 1 
-let g:gutentags_generate_on_missing = 1 
-let g:gutentags_generate_on_write = 1 
-let g:gutentags_generate_on_empty_buffer = 0
-let g:gutentags_cache_dir = expand('~/.cache/vim/ctags/')
-let g:gutentags_ctags_exclude = [
-      \ '*.git', '*.svg', '*.hg',
-      \ '*/tests/*',
-      \ 'build',
-      \ 'dist',
-      \ '*sites/*/files/*',
-      \ 'bin',
-      \ 'node_modules',
-      \ 'bower_components',
-      \ 'cache',
-      \ 'compiled',
-      \ 'docs',
-      \ 'example',
-      \ 'bundle',
-      \ 'vendor',
-      \ '*.md',
-      \ '*-lock.json',
-      \ '*.lock',
-      \ '*bundle*.js',
-      \ '*build*.js',
-      \ '.*rc*',
-      \ '*.json',
-      \ '*.min.*',
-      \ '*.map',
-      \ '*.bak',
-      \ '*.zip',
-      \ '*.pyc',
-      \ '*.class',
-      \ '*.sln',
-      \ '*.Master',
-      \ '*.csproj',
-      \ '*.tmp',
-      \ '*.csproj.user',
-      \ '*.cache',
-      \ '*.pdb',
-      \ 'tags*',
-      \ 'cscope.*',
-      \ '*.css',
-      \ '*.less',
-      \ '*.scss',
-      \ '*.exe', '*.dll',
-      \ '*.mp3', '*.ogg', '*.flac',
-      \ '*.swp', '*.swo',
-      \ '*.bmp', '*.gif', '*.ico', '*.jpg', '*.png',
-      \ '*.rar', '*.zip', '*.tar', '*.tar.gz', '*.tar.xz', '*.tar.bz2',
-      \ '*.pdf', '*.doc', '*.docx', '*.ppt', '*.pptx',
-      \ ]
-
-" tagbar
-" ------
-let g:tagbar_ctags_bin = "/opt/homebrew/bin/ctags"
-nmap <F8> :TagbarToggle<CR>
-
-" coc
-" ---
-" TextEdit might fail if hidden is not set.
-set hidden
-
 " vim-jsonnet
 " -----------
 let g:jsonnet_fmt_on_save = 0
 
-" Some servers have issues with backup files, see #649.
-set nobackup
-set nowritebackup
-
-" Global extensions
-" let g:coc_global_extensions = ['coc-rust-analyzer']
-
-" Give more space for displaying messages.
-set cmdheight=2" Use tab for trigger completion with characters ahead and navigate.
-
-" NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
-" other plugin before putting this into your config.
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-
-" Make <CR> auto-select the first completion item and notify coc.nvim to
-" format on enter, <cr> could be remapped by other vim plugin
-inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
-
-function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~# '\s'
-endfunction
-
-" Use `[g` and `]g` to navigate diagnostics
-" Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
-
-" GoTo code navigation.
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-
-
-" Use K to show documentation in preview window.
-nnoremap <silent> K :call <SID>show_documentation()<CR>
-
-function! s:show_documentation()
-  if (index(['vim','help'], &filetype) >= 0)
-    execute 'h '.expand('<cword>')
-  elseif (coc#rpc#ready())
-    call CocActionAsync('doHover')
-  else
-    execute '!' . &keywordprg . " " . expand('<cword>')
-  endif
-endfunction
-
-" Highlight the symbol and its references when holding the cursor.
-autocmd CursorHold * silent call CocActionAsync('highlight')
-
-" Symbol renaming.
-nmap <leader>rn <Plug>(coc-rename)
-
-" Formatting selected code.
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
-
-augroup mygroup
-  autocmd!
-  " Setup formatexpr specified filetype(s).
-  autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
-  " Update signature help on jump placeholder.
-  autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
-augroup end
-
-" Applying codeAction to the selected region.
-" Example: `<leader>aap` for current paragraph
-xmap <leader>a  <Plug>(coc-codeaction-selected)
-nmap <leader>a  <Plug>(coc-codeaction-selected)
-
-" Remap keys for applying codeAction to the current buffer.
-nmap <leader>ac  <Plug>(coc-codeaction)
-" Apply AutoFix to problem on the current line.
-nmap <leader>qf  <Plug>(coc-fix-current)
-
-" Use CTRL-S for selections ranges.
-" Requires 'textDocument/selectionRange' support of language server.
-nmap <silent> <C-s> <Plug>(coc-range-select)
-xmap <silent> <C-s> <Plug>(coc-range-select)
+" Regular vim settings
+" --------------------
+" Let iterm handle mouse
+set mouse=
 
 " undo tree
 " ---------
 nnoremap <F6> :UndotreeToggle<cr>
-
-" rust
-" ----
-nnoremap <leader>l :RustFmt<CR>
 
 " NerdTree
 " --------
