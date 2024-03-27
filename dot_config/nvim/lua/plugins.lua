@@ -30,10 +30,14 @@ return require('packer').startup(function(use)
   use 'mbbill/undotree'                      -- Undo tree.
   use 'preservim/nerdtree'                   -- File explorer.
   use 'PhilRunninger/nerdtree-buffer-ops'    -- Manage buffers in file explorer.
+  use {                                      -- Dynamically set tab size.
+    'nmac427/guess-indent.nvim',
+    config = function() require('guess-indent').setup {} end,
+  }
   
   -- Language stuff
   use 'google/vim-jsonnet'         -- Jsonnet plugin.
-  use {
+  use {                            -- LSP that also ties in autocompletion and snippets.
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v3.x',
     requires = {
@@ -64,4 +68,7 @@ return require('packer').startup(function(use)
   if packer_bootstrap then
     require('packer').sync()
   end
+
+  -- Load configs for plugins.
+  require('plugins.lsp_zero')
 end)
