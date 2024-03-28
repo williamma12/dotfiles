@@ -37,6 +37,12 @@ return require('packer').startup(function(use)
   
   -- Language stuff
   use 'google/vim-jsonnet'         -- Jsonnet plugin.
+  use {                            -- Scala plugin.
+    'scalameta/nvim-metals',
+    requires = {
+      {'nvim-lua/plenary.nvim'},
+    }
+  }
   use {                            -- LSP that also ties in autocompletion and snippets.
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v3.x',
