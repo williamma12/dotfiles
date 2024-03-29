@@ -8,8 +8,8 @@ brew install neovim
 brew install tmux
 brew install fzf
 brew install zsh
-brew install chezmoi                                                    # Dotfile manager
-brew install ripgrep                                                    # Used for vim-ctrlSF
+brew install chezmoi  # Dotfile manager
+brew install ripgrep  # Used for telescope.nvim
 
 # Install Tmux Plugin Manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
