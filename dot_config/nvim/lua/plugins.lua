@@ -96,4 +96,5 @@ return require('packer').startup(function(use)
   -- Load configs for plugins.
   require('plugins.lsp_zero')
   require('plugins.telescope')
+  require('plugins.treesitter')
 end)

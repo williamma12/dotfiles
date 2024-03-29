@@ -6,5 +6,5 @@ vim.cmd([[
 vim.cmd('set background=dark')
 vim.cmd('let base16colorspace=256')
 vim.cmd('colorscheme solarized')
-vim.cmd('syntax enable')
-vim.cmd('hi Normal ctermbg=NONE')
+-- vim.cmd('syntax enable')
+-- vim.cmd('hi Normal ctermbg=NONE')

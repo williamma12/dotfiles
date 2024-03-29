@@ -3,63 +3,7 @@ let mapleader = ","
 let localleader = "."
 
 lua require("plugins")
-lua require("plugins.lsp_zero")
-
-" if has('nvim')
-"     set guicursor=n-v-c:block-Cursor/lCursor-blinkon0,i-ci:ver25-Cursor/lCursor,r-cr:hor20-Cursor/lCursor
-"     set inccommand=nosplit
-"     noremap <C-q> :confirm qall<CR>
-" end
-
 lua require("colorscheme")
-
-" deal with colors
-" if !has('gui_running')
-"   set t_Co=256
-" endif
-" set background=dark
-" let base16colorspace=256
-" colorscheme solarized
-" syntax enable
-" hi Normal ctermbg=NONE
-
-" CtrlP
-" -----
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
-let g:ctrlp_extensions = ['mixed', 'tag']
-let g:ctrlp_working_path_mode = 'ra'
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/]\.(git|hg|svn|venv*)$',
-  \ 'file': '\v\.(exe|so|dll|pyc|swp)$',
-  \ 'link': 'some_bad_symbolic_links',
-  \ }
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-let g:ctrlp_buffer_func = { 'enter': 'CtrlPBDelete' }
-function! CtrlPBDelete()
-  nnoremap <buffer> <silent> <c-F10> :call <sid>DeleteMarkedBuffers()<cr>
-endfunction
-function! s:DeleteMarkedBuffers()
-  " list all marked buffers
-  let marked = ctrlp#getmarkedlist()
-
-  " the file under the cursor is implicitly marked
-  if empty(marked)
-    call add(marked, fnamemodify(ctrlp#getcline(), ':p'))
-  endif
-
-  " call bdelete on all marked buffers
-  for fname in marked
-    let bufid = fname =~ '\[\d\+\*No Name\]$' ? str2nr(matchstr(fname, '\d\+'))
-          \ : fnamemodify(fname[2:], ':p')
-    exec "silent! bdelete" bufid
-  endfor
-
-  " refresh ctrlp
-  exec "normal \<F5>"
-endfunction
 
 " Lightline 
 " ---------
@@ -91,18 +35,6 @@ let g:lightline = {
 
 " Use autocmd to force lightline update.
 autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
-
-" CtrlSF 
-" ------
-let g:ctrlsf_backend = 'rg'
-nmap     <C-F>f <Plug>CtrlSFPrompt
-vmap     <C-F>f <Plug>CtrlSFVwordPath
-vmap     <C-F>F <Plug>CtrlSFVwordExec
-nmap     <C-F>n <Plug>CtrlSFCwordPath
-nmap     <C-F>p <Plug>CtrlSFPwordPath
-nnoremap <C-F>o :CtrlSFOpen<CR>
-nnoremap <C-F>t :CtrlSFToggle<CR>
-inoremap <C-F>t <Esc>:CtrlSFToggle<CR>
 
 " vim-jsonnet
 " -----------
@@ -141,17 +73,8 @@ autocmd BufWritePost ~/.local/share/chezmoi/* ! chezmoi apply --source-path %
 " # Editor settings
 " =============================================================================
 
-" Enabling filetype support provides filetype-specific indenting, syntax
-" highlighting, omni-completion and other useful settings.
-filetype plugin indent on
-syntax on
+" limit max highlight to 300 chars
 set synmaxcol=300
-
-" show existing tab with 4 spaces width
-set tabstop=4
-
-" " when indenting with '>', use 4 spaces width
-set shiftwidth=4
 
 " " On pressing tab, insert 4 spaces
 set expandtab
