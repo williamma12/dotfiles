@@ -14,6 +14,7 @@ require('lspconfig').gopls.setup({})
 ---
 local metals_config = require('metals').bare_config()
 metals_config.capabilities = lsp_zero.get_capabilities()
+metals_config.settings.enableSemanticHighlighting = false
 
 ---
 -- Autocmd that will actually be in charging of starting metals

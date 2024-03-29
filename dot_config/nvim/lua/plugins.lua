@@ -22,8 +22,8 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- IDE Plugings
-  use 'dyng/ctrlsf.vim'                      -- Search files for search terms.
-  use 'ctrlpvim/ctrlp.vim'                   -- Find and open files.
+  -- use 'dyng/ctrlsf.vim'                      -- Search files for search terms.
+  -- use 'ctrlpvim/ctrlp.vim'                   -- Find and open files.
   use 'tpope/vim-commentary'                 -- Comment out lines of code.
   use 'tpope/vim-fugitive'                   -- Git support in vim.
   use 'tommcdo/vim-fugitive-blame-ext'       -- Add commit message to Gblame in vim-fugitive.
@@ -33,6 +33,24 @@ return require('packer').startup(function(use)
   use {                                      -- Dynamically set tab size.
     'nmac427/guess-indent.nvim',
     config = function() require('guess-indent').setup {} end,
+  }
+  use {
+  'nvim-telescope/telescope.nvim', tag = '0.1.6',
+    requires = { 
+      {'nvim-lua/plenary.nvim'},
+      {'nvim-tree/nvim-web-devicons'},
+      {
+        'nvim-treesitter/nvim-treesitter',
+        run = function()
+          local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+          ts_update()
+        end,
+      },
+      {
+        'nvim-telescope/telescope-fzf-native.nvim', 
+        run = 'make'
+      },
+    }
   }
   
   -- Language stuff
@@ -77,4 +95,5 @@ return require('packer').startup(function(use)
 
   -- Load configs for plugins.
   require('plugins.lsp_zero')
+  require('plugins.telescope')
 end)
