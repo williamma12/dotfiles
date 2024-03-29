@@ -11,6 +11,10 @@ brew install zsh
 brew install chezmoi  # Dotfile manager
 brew install ripgrep  # Used for telescope.nvim
 
+# Get hack nerd font
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+
 # Install Tmux Plugin Manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 tmux source ~/.tmux.conf
