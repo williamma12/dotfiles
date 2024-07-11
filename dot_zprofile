@@ -4,7 +4,7 @@ alias brow='arch --x86_64 /usr/local/Homebrew/bin/brew'
 
 # Colors
 export CLICOLOR=1
-export LS_COLORS=gxfxbEaEBxxEhEhBaDaCaD
+zstyle ':completion:*:default' list-colors ''
 alias ll="ls -lGH" # Use LS_COLORS
 zstyle ':completion:*' list-colors
 
@@ -17,3 +17,6 @@ alias lls="ls -halt"
 
 export PATH="$PATH:/Users/william/Library/Application Support/Coursier/bin"
 
+
+# Added by /Users/william/github.parsec.apple.com/luna/beam/tools/setup.sh
+source /Users/william/github.parsec.apple.com/luna/beam/tools/env.sh
